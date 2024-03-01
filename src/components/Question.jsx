@@ -1,33 +1,34 @@
-import { useState } from 'react';
-import data from '../helpers/data';
-import { arrowdown, arrowup } from '../helpers/icons';
+import { useState } from "react";
+import { arrowdown, arrowup } from "../helpers/icons";
+import InterviewAccord from "./InterviewAccord";
+import { Container, Row,Card } from "react-bootstrap";
 
-const Question = () => {
-    const [answerVisible, setAnswerVisible] = useState(true)
+
+const Question = ({question,answer,i,id}) => {
+    const [answerVisible, setAnswerVisible] = useState(true);
     return (
-        <div className='question-container'>
-            {data.map((item,i) => {
-                return (
-                    <div key={i} className='question-card'>{item.id}-{item.question}
-                        <div className='arrow-down'>      
-                         {answerVisible 
-                        ? (
-                            <div onClick={() => setAnswerVisible(false)} > {arrowdown} </div>
-                        ) : (
-                            <div onClick={()=> setAnswerVisible(true)}> {arrowup} </div>
-                        )
-                            
-                        }
-                        </div>
-                       
-                        <div>
-                            
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-    )
-}
+        <Container>
+        <Row>
+                    <Card key={i} className="question-card">
+                    <Card.Body className="d-flex justify-content-between">
+                        {id}-{question}
+                      
+                            {answerVisible ? (
+                                <div className="arrow-down" onClick={() => setAnswerVisible(false)} >
+                                 {arrowdown}
+                                </div>
+                            ) : (
+                                <div className="arrow-up" onClick={() => setAnswerVisible(true)}>
+                                    {arrowup} 
+                                </div>
+                            )}
+                     
+                    </Card.Body>
+                        {answerVisible ? "" : <InterviewAccord answer={answer} />}
+                    </Card>
+                  </Row>
+           </Container>
+    );
+};
 
-export default Question
+export default Question;

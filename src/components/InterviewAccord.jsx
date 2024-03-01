@@ -5,7 +5,7 @@ const InterviewAccord = ({answer}) => {
  
 
   return (
-          <div key={id}>
+          <div>
             <p>{answer}</p>
           </div>
                             
