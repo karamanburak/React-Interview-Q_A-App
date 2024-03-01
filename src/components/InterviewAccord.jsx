@@ -1,8 +1,16 @@
+import {data} from '../helpers/data'
 
-const InterviewAccord = () => {
+const InterviewAccord = ({answer}) => {
+    console.log(answer);
+ 
+
   return (
-    <div>InterviewAccord</div>
+          <div key={id}>
+            <p>{answer}</p>
+          </div>
+                            
   )
 }
 
 export default InterviewAccord
+
