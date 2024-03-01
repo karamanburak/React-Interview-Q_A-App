@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.question-card {
+    height: 100px;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.288);
+    color: maroon;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.arrow-down,
+.arrow-up{
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    cursor: pointer;
+}
