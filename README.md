@@ -1,4 +1,4 @@
-# React-Interview-Q_A-App
+# React-Interview-Q-A
 
 ## Live Demo
   <a href="https://react-interview-questions-page.netlify.app/" target="_blank">React Interview Accord</a>
@@ -18,7 +18,8 @@ SOLUTION
 │   │   └── InterviewAccord.jsx
 │   ├── helper
 │   │   ├── data.js
-│   │   └── icons.js
+│   │   ├── icons.js
+│   │   └── project.gif
 │   ├── App.css
 │   ├── App.js
 │   └── index.js
