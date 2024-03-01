@@ -48,7 +48,7 @@ Build a Interview Accord App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, students will be able to;
+### At the end of the project, you will be able to;
 
 - improve coding skills within HTML & CSS & JS & ReactJS.
 
@@ -60,9 +60,6 @@ Build a Interview Accord App using ReactJS.
 
 - Step 2: Build Interview Accord App.
 
-- Step 3: Push your application into your own public repo on Github
-
-- Step 4: Add project gif to your project and README.md file.
 
 ## Notes
 
