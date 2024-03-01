@@ -31,7 +31,7 @@ SOLUTION
 
 ## Expected Outcome
 
-![interview]()
+![interview](./src/helpers/project.gif)
 
 ## Objective
 
