@@ -1,7 +1,7 @@
 # React-InterviewQ_A-App
 
 ## Live Demo
-  <!-- <a href="https://interviewaccord.vercel.app/" target="_blank">React Interview Accord</a> -->
+  <a href="https://react-interview-questions-page.netlify.app/" target="_blank">React Interview Accord</a>
 
 ## Project Skeleton
 
