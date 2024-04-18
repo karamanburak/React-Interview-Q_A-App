@@ -1,7 +1,6 @@
-# React-Interview-Q-A
+# react-interview-Q-A
 
-## Live Demo
-  <a href="https://react-interview-questions-page.netlify.app/" target="_blank">React Interview Accord</a>
+  <a href="https://react-interview-questions-page.netlify.app/" target="_blank">React Interview Q-A Live</a>
 
 ## Project Skeleton
 
@@ -30,7 +29,7 @@ SOLUTION
 
 ```
 
-## Expected Outcome
+## Outcome
 
 ![interview](./src/helpers/project.gif)
 
@@ -48,11 +47,6 @@ Build a Interview Accord App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, you will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 ## Steps to Solution
 
@@ -60,10 +54,6 @@ Build a Interview Accord App using ReactJS.
 
 - Step 2: Build Interview Accord App.
 
-
-## Notes
-
-- You can add additional functionalitiesto your app.
 
 
 
